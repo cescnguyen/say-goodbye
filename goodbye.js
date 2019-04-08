@@ -1,14 +1,11 @@
-var chalk = require("chalk")
-
+var chalk = require("chalk");
 
 function GoodBye(name) {
-    this.name = name;
+  this.name = name;
 }
 
-
-GoodBye.prototype.sayGoodBye = function () {
-    console.log('good bye ', chalk.green(this.name))
-}
-
+GoodBye.prototype.sayGoodBye = function() {
+  console.log("good bye", chalk.green(this.name));
+};
 
 module.exports = GoodBye;
