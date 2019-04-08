@@ -8,3 +8,6 @@ goodByeCat.sayGoodBye();
 
 var goodByeChicken = new GoodBye("Mr. Chicken");
 goodByeChicken.sayGoodBye();
+
+var goodByeChicken1 = new GoodBye("Mr. Chicken 1");
+goodByeChicken1.sayGoodBye();
