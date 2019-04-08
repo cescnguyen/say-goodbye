@@ -11,3 +11,6 @@ goodByeChicken.sayGoodBye();
 
 var goodByeBanana = new GoodBye("Mr. Banana");
 goodByeBanana.sayGoodBye();
+
+var goodByeMouse = new GoodBye("Mr. Mouse");
+goodByeMouse.sayGoodBye();
