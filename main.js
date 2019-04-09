@@ -1,8 +1,12 @@
 var Hello = require("./hello")
 var GoodBye = require("./goodbye");
 
+
 var hello = new Hello("Mr. Me");
 hello.sayHello();
+
+var goodByeMe = new GoodBye("Mr. Me");
+goodByeMe.sayGoodBye();
 
 var goodByeDog = new GoodBye("Mr. Dog");
 goodByeDog.sayGoodBye();
